@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3F8FC; /* Light blue background for a calm and fresh feel */
+    font-family: 'Arial', sans-serif; /* Modern font for better readability */
+}
+
+/* Navbar */
+.navbar-nav{
+    margin-left: 600px;
+}
+
+/* Button */
+.btn{
+    margin-left: 100px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    background-color: #3B0A45; /* Deep purple for a bold look */
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #5F1A75; /* Lighter purple on hover */
+}
+
+/* Navigation link */
+.nav-link{
+    margin-left: 100px;
+    color: #3B0A45; /* Purple color for nav links */
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #9C4B7E; /* Lighter purple on hover */
+}
+
+/* Container */
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #A3D1A5; /* Light green border to add a fresh feel */
+    border-radius: 10px;
+    background: linear-gradient(135deg, #9CC5A1, #A3D1A5); /* Subtle gradient for the background */
+    margin-top: 70px;
+    width: 1200px;
+    padding: 20px;
+}
+
+/* Profile Image */
+.img{
+    background-color: #fff;
+    margin-top: 70px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3B0A45; /* Deep purple border */
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+}
+
+/* Paragraph */
+p{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4A4A4A; /* Dark gray for better readability */
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* List items */
+li{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4A4A4A; /* Dark gray for contrast */
+    margin: 10px 0;
+}
+li:hover {
+    color: #5F1A75; /* Change color on hover for interactive effect */
+}
